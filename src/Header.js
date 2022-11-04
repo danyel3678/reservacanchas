@@ -8,9 +8,13 @@ class Header extends Component {
     render(){
         return(
             <React.Fragment>
-                <img src={logo} alt="imagen logo" id="logouta"></img>
-                <h3>Administracion de recintos deportivos</h3>
-                <img src={imgperfil} alt="imagen perfil" id="imgperfil"></img>
+                <a href="/">
+                    <img src={logo} alt="imagen logo" id="logouta"></img>
+                </a>
+                <h1>Administracion de recintos deportivos</h1>
+                <a href="/admin">
+                    <img src={imgperfil} alt="imagen perfil" id="imgperfil"></img>
+                </a>
             </React.Fragment>
         );
     }

@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from './Header';
-import Login from './login';
+import Router from './Router';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         </a> */}
       </header>
       <main>
-        <Login></Login>
+        <Router />
       </main>
       <footer>
         <h1></h1>

@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { Button } from 'react-bootstrap';
 
 class Login extends Component {
 
@@ -6,15 +7,16 @@ class Login extends Component {
         return(
             <div className="login">
                 <div>
-                    <a>Usuario</a>
+                    <p>Usuario</p>
                     <input type="text" className="user" ></input>
                     <br></br>
-                    <a>Contrasena</a>
+                    <p>Contrasena</p>
                     <input type="password" className="password" ></input>
                 </div>
                 <button id="login">Login</button>
                 <button id="register">Registrarse</button>
             </div>
+            
         );
     }
 }

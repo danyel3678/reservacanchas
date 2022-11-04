@@ -3,6 +3,7 @@
   background-repeat: no-repeat;
   background-size:100vw;
   text-align: center;
+  color: white
 }
 
 .App-logo {
@@ -26,7 +27,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white
 }
 
 
@@ -49,10 +49,11 @@ main {
   height: 100vh;
 }
 
+/* LOGIN */
 .login {
   text-align: left;
-  width: 300px;
-  height: 150px;
+  width: 420px;
+  height: 300px;
   border-style:ridge;
   border-width: 1vh;
   border: 10px 20px;
@@ -60,18 +61,18 @@ main {
   margin: 10vw auto 10vw auto;
   background-color: rgb(20, 11, 156);
 }
-.login a{
+.login p{
   color: aliceblue;
-  display: inline-blocks;
+  display: inline;
 }
 .user{
-  width: 150px;
+  width: 180px;
   display: inline-block;
-  margin: 00px 0px 40px 35px;
+  margin: 0px 0px 40px 35px;
 }
 
 .password{
-  width: 150px;
+  width: 180px;
   display: inline-block;
   margin: 0px 20px 40px 10px;
 }
@@ -87,6 +88,24 @@ main {
   float: right;
   margin-right: 1vw;
 }
+/* INTERFAZADMIN */
+.InterfazAdmin {
+  text-align: center;
+  width: 90vw;
+  height: 80vh;
+  border-style:ridge;
+  border-width: 1vh;
+  border: 10px 20px;
+  padding: 2vw;
+  margin: 2vw auto 10vw auto;
+  background-color: rgb(20, 11, 156);
+}
+.InterfazAdmin a{
+  color: aliceblue;
+  display: inline-blocks;
+}
+
+
 
 /* footer */
 footer{
