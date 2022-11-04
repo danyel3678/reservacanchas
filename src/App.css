@@ -1,0 +1,102 @@
+.App {
+  background-image: url(fondotenis.jpg);
+  background-repeat: no-repeat;
+  background-size:100vw;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  padding: 0px 50px 0px 50px;
+  background-color:rgb(20, 11, 156);
+  min-height: 10vh;  /* default 100vh  */
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white
+}
+
+
+#logouta{
+  grid-column: 1/2;
+}
+
+#imgperfil{
+  margin: auto;
+  grid-column: 3/4;
+  width: 100px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Main */
+main {
+  height: 100vh;
+}
+
+.login {
+  text-align: left;
+  width: 300px;
+  height: 150px;
+  border-style:ridge;
+  border-width: 1vh;
+  border: 10px 20px;
+  padding: 2vw;
+  margin: 10vw auto 10vw auto;
+  background-color: rgb(20, 11, 156);
+}
+.login a{
+  color: aliceblue;
+  display: inline-blocks;
+}
+.user{
+  width: 150px;
+  display: inline-block;
+  margin: 00px 0px 40px 35px;
+}
+
+.password{
+  width: 150px;
+  display: inline-block;
+  margin: 0px 20px 40px 10px;
+}
+
+#login{
+  display: block;
+  float: left;
+  margin-left: 1vw;
+}
+
+#register{
+  display: block;
+  float: right;
+  margin-right: 1vw;
+}
+
+/* footer */
+footer{
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
