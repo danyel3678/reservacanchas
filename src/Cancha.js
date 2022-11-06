@@ -1,34 +1,25 @@
 import React, {Component} from "react";
 
-class InterfazAdmin extends Component {
+class Cancha extends Component {
 
     render(){
         return(
-            <div className="InterfazAdmin">
+            <div className="Cancha">
                 <div>
                     <h2>Interfaz Administracion</h2>
-                    {/* <div className="opciones">
+                    <div className="opciones">
                         <div className="botones-admin">
                         <button type="button" class="btn btn-secondary">Agregar actividad</button>
                         <button type="button" class="btn btn-secondary">Crear actividad</button>
                         <button type="button" class="btn btn-secondary">Quitar actividad</button>
                         <button type="button" class="btn btn-secondary">Eliminar actividad</button>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="resumen-actividades">
-                        <h4>Resumen de actividades</h4>
+                        <h4>Actividades cancha 1</h4>
 
                         <div className="principal-horario">
                         <table class="table table-light table-bordered border-primary">
-                            {/* <thead>
-                                <th scope="row">Vacio</th>
-                                <td class="table-active">Lunes</td>
-                                <td>Martes</td>
-                                <td>Miercoles</td>
-                                <td>Jueves</td> 
-                                <td>Viernes</td>
-                                <td>Sabado</td>
-                            </thead> */}
                             <tbody class="table-active">
                                 <tr class="table-active">
                                     <th scope="row">Vacio</th>
@@ -46,12 +37,12 @@ class InterfazAdmin extends Component {
                                             a1
                                         </td>
                                         <td>
-                                            a2
+                                            
                                         </td>
                                     </td>
                                     <td>
                                         <td>
-                                            a3
+                                            
                                         </td>
                                     </td>
                                     <td></td>
@@ -66,7 +57,7 @@ class InterfazAdmin extends Component {
                                             a1
                                         </td>
                                         <td>
-                                            a2
+                                            
                                         </td>
                                     </td>
                                     <td></td>
@@ -82,12 +73,12 @@ class InterfazAdmin extends Component {
                                             a1
                                         </td>
                                         <td>
-                                            a2
+                                            
                                         </td>
                                     </td>
                                     <td>
                                         <td>
-                                            a3
+                                            
                                         </td>
                                     </td>
                                     <td></td>
@@ -118,7 +109,7 @@ class InterfazAdmin extends Component {
                                     </td>
                                     <td>
                                         <td>
-                                            a3
+                                            a1
                                         </td>
                                     </td>
                                     <td></td>
@@ -138,11 +129,11 @@ class InterfazAdmin extends Component {
                                     </td>
                                     <td>
                                         <td>
-                                            a3
+                                            a1
                                         </td>
                                     </td>
                                     <td>
-                                        <td>a4</td>
+                                        <td>a1</td>
                                     </td>
                                     <td></td>
                                     <td></td>
@@ -156,7 +147,7 @@ class InterfazAdmin extends Component {
                                     <td></td>
                                     <td></td>
                                     <td>
-                                        <td>a7</td>
+                                        <td>a1</td>
                                     </td>
                                 </tr>
                             </tbody>
@@ -164,9 +155,21 @@ class InterfazAdmin extends Component {
                         </div>
                     </div>
                     <div className="resumen-solicitudes">
-                        <h4>Solicitudes</h4>
+                        <h4>Solicitudes Cancha 1</h4>
                         <div class="bg-light text-dark">
                             <table>
+                                <tr>
+                                    <td>Cancha</td>
+                                    <td>1</td>
+                                    <td>Tennis</td>
+                                    <td>Bloque 2</td>
+                                </tr>
+                                <tr>
+                                    <td>Cancha</td>
+                                    <td>1</td>
+                                    <td>Tennis</td>
+                                    <td>Bloque 6</td>
+                                </tr>
                                 <tr>
                                     <td>Cancha</td>
                                     <td>1</td>
@@ -175,27 +178,15 @@ class InterfazAdmin extends Component {
                                 </tr>
                                 <tr>
                                     <td>Cancha</td>
-                                    <td>2</td>
+                                    <td>1</td>
                                     <td>Tennis</td>
-                                    <td>Bloque 6</td>
+                                    <td>Bloque 7</td>
                                 </tr>
                                 <tr>
                                     <td>Cancha</td>
-                                    <td>2</td>
+                                    <td>1</td>
                                     <td>Tennis</td>
-                                    <td>Bloque 1</td>
-                                </tr>
-                                <tr>
-                                    <td>Cancha</td>
-                                    <td>2</td>
-                                    <td>Tennis</td>
-                                    <td>Bloque 1</td>
-                                </tr>
-                                <tr>
-                                    <td>Cancha</td>
-                                    <td>2</td>
-                                    <td>Tennis</td>
-                                    <td>Bloque 1</td>
+                                    <td>Bloque 4</td>
                                 </tr>
                             </table>
                         </div>
@@ -206,4 +197,4 @@ class InterfazAdmin extends Component {
     }
 }
 
-export default InterfazAdmin;
+export default Cancha;

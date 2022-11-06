@@ -43,6 +43,7 @@
 .App-link {
   color: #61dafb;
 }
+/* Navbar */
 
 /* Main */
 main {
@@ -91,20 +92,75 @@ main {
 /* INTERFAZADMIN */
 .InterfazAdmin {
   text-align: center;
-  width: 90vw;
+  width: 97vw;
   height: 80vh;
   border-style:ridge;
   border-width: 1vh;
   border: 10px 20px;
-  padding: 2vw;
-  margin: 2vw auto 10vw auto;
+  padding: 1vw;
+  margin: 1vw auto 10vw auto;
   background-color: rgb(20, 11, 156);
 }
 .InterfazAdmin a{
   color: aliceblue;
   display: inline-blocks;
 }
+.opciones{
+  text-align: left;
+  width: auto;
+  height: 200px;
+}
+.botones-admin{
+  margin-top: 4vh;
+  width: 25vw;
+}
+.botones-admin button{
+  margin: 10px 10px 10px 10px;
+  margin: 10px;
+}
 
+
+
+.resumen-actividades{
+  display: inline-block;
+  float: left;
+  width: 70vw;
+  height: auto;
+}
+.resumen-actividades h4{
+  margin: 50px 0px 100px 0px;
+}
+
+
+.principal-horario{
+
+}
+
+.resumen-solicitudes{
+  display: inline-block;
+  float: right;
+  width: 22vw;
+  height: auto;
+}
+.resumen-solicitudes h4{
+  margin: 50px 0px 100px 0px;
+}
+/* Cancha */
+.Cancha {
+  text-align: center;
+  width: 97vw;
+  height: 80vh;
+  border-style:ridge;
+  border-width: 1vh;
+  border: 10px 20px;
+  padding: 1vw;
+  margin: 1vw auto 10vw auto;
+  background-color: rgb(20, 11, 156);
+}
+.Cancha a{
+  color: aliceblue;
+  display: inline-blocks;
+}
 
 
 /* footer */

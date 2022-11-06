@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import { Button } from 'react-bootstrap';
 
 class Login extends Component {
 
@@ -13,8 +12,10 @@ class Login extends Component {
                     <p>Contrasena</p>
                     <input type="password" className="password" ></input>
                 </div>
-                <button id="login">Login</button>
-                <button id="register">Registrarse</button>
+                <a href="/admin">
+                    <button id="login">Login</button>
+                    <button id="register">Registrarse</button>
+                </a>
             </div>
             
         );
