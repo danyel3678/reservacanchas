@@ -19,139 +19,139 @@ class Cancha extends Component {
                         <h4>Actividades cancha 1</h4>
 
                         <div className="principal-horario">
-                        <table class="table table-light table-bordered border-primary">
-                            <tbody class="table-active">
-                                <tr class="table-active">
-                                    <th scope="row">Vacio</th>
-                                    <td class="table-active">Lunes</td>
-                                    <td>Martes</td>
-                                    <td>Miercoles</td>
-                                    <td>Jueves</td> 
-                                    <td>Viernes</td>
-                                <td>Sabado</td>
-                                </tr>
-                                <tr class="table-active">
-                                    <th>Bloque 1</th>
-                                    <td>
+                            <table class="table table-light table-bordered border-primary">
+                                <tbody class="table-active">
+                                    <tr class="table-active">
+                                        <th scope="row">Vacio</th>
+                                        <td class="table-active">Lunes</td>
+                                        <td>Martes</td>
+                                        <td>Miercoles</td>
+                                        <td>Jueves</td> 
+                                        <td>Viernes</td>
+                                    <td>Sabado</td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th>Bloque 1</th>
                                         <td>
-                                            a1
+                                            <td>
+                                                a1
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
                                         </td>
                                         <td>
-                                            
+                                            <td>
+                                                
+                                            </td>
                                         </td>
-                                    </td>
-                                    <td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th>Bloque 2</th>
                                         <td>
-                                            
+                                            <td>
+                                                a1
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
                                         </td>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-active">
-                                    <th>Bloque 2</th>
-                                    <td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th>Bloque 3</th>
                                         <td>
-                                            a1
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-active">
-                                    <th>Bloque 3</th>
-                                    <td>
-                                        <td>
-                                            a1
-                                        </td>
-                                        <td>
-                                            
-                                        </td>
-                                    </td>
-                                    <td>
-                                        <td>
-                                            
-                                        </td>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-active">
-                                    <th>Bloque 4</th>
-                                    <td>
-                                    </td>
-                                    <td>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-active">
-                                    <th>Bloque 5</th>
-                                    <td>
-                                        <td>
-                                            
+                                            <td>
+                                                a1
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
                                         </td>
                                         <td>
-                                            
+                                            <td>
+                                                
+                                            </td>
                                         </td>
-                                    </td>
-                                    <td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th>Bloque 4</th>
                                         <td>
-                                            a1
-                                        </td>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-active">
-                                    <th>Bloque 6</th>
-                                    <td>
-                                        <td>
-                                            
                                         </td>
                                         <td>
-                                            
                                         </td>
-                                    </td>
-                                    <td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th>Bloque 5</th>
                                         <td>
-                                            a1
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
                                         </td>
-                                    </td>
-                                    <td>
-                                        <td>a1</td>
-                                    </td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                </tr>
-                                <tr class="table-active">
-                                    <th>Bloque 7</th>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td>
-                                        <td>a1</td>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        <td>
+                                            <td>
+                                                a1
+                                            </td>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th>Bloque 6</th>
+                                        <td>
+                                            <td>
+                                                
+                                            </td>
+                                            <td>
+                                                
+                                            </td>
+                                        </td>
+                                        <td>
+                                            <td>
+                                                a1
+                                            </td>
+                                        </td>
+                                        <td>
+                                            <td>a1</td>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr class="table-active">
+                                        <th>Bloque 7</th>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <td>a1</td>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                     <div className="resumen-solicitudes">
