@@ -14,6 +14,8 @@ class Login extends Component {
                 </div>
                 <a href="/admin">
                     <button id="login">Login</button>
+                </a>
+                <a href="/register">
                     <button id="register">Registrarse</button>
                 </a>
             </div>

@@ -1,10 +1,25 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import { useState } from 'react';
 import './App.css';
 import Header from './Header';
 import Router from './Router';
 
+
+
+fetch('http://localhost:4000/api/users')
+  .then(res =>res.json())
+  .then(data => console.log(data))
+  .catch(error => console.log(error))
+
+
 function App() {
+
+  const [usurio, createUser] = useState({
+    nombre: '',
+    usuario: '',
+    contrasena: ''
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
