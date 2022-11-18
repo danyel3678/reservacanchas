@@ -7,19 +7,12 @@ import Router from './Router';
 
 
 
-fetch('http://localhost:4000/api/users')
-  .then(res =>res.json())
-  .then(data => console.log(data))
-  .catch(error => console.log(error))
-
-
 function App() {
+  /* fetch('http://localhost:4000/api/users')
+        .then(res =>res.json())
+        .then(data => console.log(data))
+        .catch(error => console.log(error)) */
 
-  const [usurio, createUser] = useState({
-    nombre: '',
-    usuario: '',
-    contrasena: ''
-  }, []);
   return (
     <div className="App">
       <header className="App-header">
